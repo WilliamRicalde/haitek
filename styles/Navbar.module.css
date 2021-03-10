@@ -9,11 +9,35 @@
   z-index: 100;
 }
 
-.navbar a {
-  background-color: #673ab7;
+.navbar button {
+  background-color: #263238;
+  border: 0;
+  color: #EF5350;
+  font-size: 2.5em;
+  outline: none;
+}
+
+.navbar button:hover {
+  cursor: pointer;
+}
+
+.container {
+  background-color: #263238DD;
+  border: 1px solid #EF5350;
   border-radius: 5px;
-  color: #ccc;
-  margin: 0 20px;
+  display: flex;
+  flex-direction: column;
+  right: 7%;
   padding: 10px;
+  position: absolute;
+  text-align: right;
+  top: 80px;
+  visibility: hidden;
+}
+
+.container a {
+  color: #EF5350;
+  font-size: 1.1em;
+  margin-bottom: 10px;
   text-decoration: none;
 }
