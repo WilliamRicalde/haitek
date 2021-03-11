@@ -19,6 +19,7 @@ export default function Navbar () {
       elm.style.visibility = 'hidden'
     }
   }
+
   return (
     <>
       <nav className={styles.navbar}>
@@ -31,7 +32,7 @@ export default function Navbar () {
           />
         </div>
         <div>
-          <button onClick={changeVisibility}>
+          <button onClick={changeVisibility} aria-label='menu'>
             <HiMenuAlt3 />
           </button>
           <div className={styles.container} id='container'>

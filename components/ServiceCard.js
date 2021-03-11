@@ -4,7 +4,7 @@ export default function ServiceCard ({ data }) {
   return (
     <div className={style.card}>
       <div>
-        <img src={data.img} alt={data.titulo} />
+        <img loading='lazy' src={data.img} alt={data.titulo} />
       </div>
       <div className={style.text}>
         <h2>{data.titulo}</h2>

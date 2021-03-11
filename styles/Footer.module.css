@@ -1,0 +1,23 @@
+.footer {
+  background: #263238;
+  background: -webkit-linear-gradient(to top, #EF5350cc, #263238 50%);
+  background: linear-gradient(to top, #EF5350cc, #263238 50%);
+  margin-bottom: 0;
+  padding: 15px 80px;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+
+.flex {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex a {
+  color: #eee;
+  font-size: 35px;
+  margin: 10px;
+  text-decoration: none;
+}

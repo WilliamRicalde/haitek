@@ -1,7 +1,7 @@
 /* eslint-disable no-undef */
 import Head from 'next/head'
-import Animation from '../Components/Animation'
-import ServiceCard from '../Components/ServiceCard'
+import Animation from '../components/Animation'
+import ServiceCard from '../components/ServiceCard'
 import home from '../public/haitek-animation.json'
 import style from '../styles/Home.module.css'
 
@@ -12,6 +12,8 @@ export default function Home ({ Descripcion, servicios }) {
         <meta charSet='UTF-8' />
         <meta httpEquiv='X-UA-Compatible' content='IE=edge' />
         <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+        <meta name='description' content='Somos un grupo de jóvenes emprendedores que buscan proporcionar a nuestros clientes la tranquilidad de disponer de un proveedor confiable capaz de satisfaces to' />
+        <meta name='robots' content='index, follow' />
         <title>Home | Haitek</title>
         <link rel='icon' href='/favicon.ico' />
       </Head>
