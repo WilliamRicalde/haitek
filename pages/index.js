@@ -21,7 +21,7 @@ export default function Home ({ Descripcion, servicios }) {
       <main className={style.main}>
         <div>
           <h1>Haitek</h1>
-          <span>Tu problemas es nuestro problema</span>
+          <span>Tu problema es nuestro problema</span>
         </div>
         <div>
           <Animation lotti={home} height={500} width={500} />
