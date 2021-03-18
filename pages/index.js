@@ -1,6 +1,7 @@
 /* eslint-disable no-undef */
 import Head from 'next/head'
 import Animation from '../components/Animation'
+import Contact from '../components/Contact'
 import ServiceCard from '../components/ServiceCard'
 import home from '../public/haitek-animation.json'
 import style from '../styles/Home.module.css'
@@ -43,6 +44,7 @@ export default function Home ({ Descripcion, servicios }) {
         }
         </article>
       </section>
+      <Contact />
     </>
   )
 }

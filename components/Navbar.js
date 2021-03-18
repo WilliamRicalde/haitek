@@ -48,7 +48,7 @@ export default function Navbar () {
             <Link href='#servicios'>
               <a> <HiBookmark /> Blog</a>
             </Link>
-            <Link href='#servicios'>
+            <Link href='#contacto'>
               <a> <HiMailOpen /> Contacto</a>
             </Link>
           </div>

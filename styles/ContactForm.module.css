@@ -1,0 +1,57 @@
+.main {
+  margin: auto;
+  width: 90%;
+}
+
+.main h1 {
+  font-size: 2em;
+}
+
+.form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+}
+
+.form input {
+  background-color: #263238;
+  border: none;
+  border-bottom: 1px solid #fff;
+  color: #fff;
+  height: 2.5em;
+  outline: none;
+}
+
+.form input:focus {
+  background-color: #263238;
+  outline: none;
+}
+
+.form textarea {
+  background-color: #263238;
+  border: none;
+  border-bottom: 1px solid #fff;
+  color: #fff;
+  outline: none;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  resize: none;
+}
+
+.form textarea:focus {
+  background-color: #263238;
+  outline: none;
+
+}
+
+.form button{
+  background-color: #263238;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  color: #fff;
+  height: 40px;
+  grid-column: 1/-1;
+  margin: auto;
+  outline: none;
+  width: 150px;
+}
