@@ -9,12 +9,19 @@
 }
 
 .card div img {
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
+    border-top-right-radius: 9px;
+    border-top-left-radius: 9px;
     height: 100%;
     width: 100%;
 }
 
 .text {
     padding: 10px;
+}
+
+@media screen and (max-width: 600px) {
+    .card{
+        margin: 10px 10px;
+        width: 80%;
+    }
 }

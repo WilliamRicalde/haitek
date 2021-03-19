@@ -39,14 +39,15 @@
   text-decoration: none;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 600px) {
   .navbar {
     align-items: center;
     background-color: #263238;
     display: flex;
+    padding: 10px 20px;
     justify-content: space-between;
     top: 0;
-    width: 100%;
+    width: 121%;
     z-index: 100;
   }
 
@@ -54,8 +55,9 @@
     background-color: #263238;
     border: 0;
     color: #EF5350;
-    display: unset;
+    display: block;
     font-size: 2.5em;
+    margin: 0;
     outline: none;
   }
 

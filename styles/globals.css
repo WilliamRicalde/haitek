@@ -12,9 +12,3 @@ body {
 * {
   box-sizing: border-box;
 }
-
-@media screen and (max-width: 800px) {
-  * {
-    box-sizing: inherit;
-  }
-}

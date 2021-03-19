@@ -44,7 +44,9 @@ export default function Home ({ Descripcion, servicios }) {
         }
         </article>
       </section>
-      <Contact />
+      <section>
+        <Contact />
+      </section>
     </>
   )
 }
