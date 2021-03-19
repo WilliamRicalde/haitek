@@ -5,6 +5,7 @@ import style from '../styles/ContactForm.module.css'
 export default function Contact () {
   const [data, setData] = useState({
     nombre: '',
+    telefono: '',
     email: '',
     contenido: '',
     fecha: ''
@@ -39,7 +40,7 @@ export default function Contact () {
       <div>
         <form id='form' autoComplete='off' onSubmit={sendForm} className={style.form}>
           <input type='text' placeholder='Nombre' name='nombre' onChange={handleChange} />
-          <input type='number' placeholder='Telefono' name='telefono' />
+          <input type='number' placeholder='Telefono' name='telefono' onChange={handleChange} />
           <input type='email' placeholder='Correo Electronico' name='email' onChange={handleChange} />
           <textarea cols='10' rows='5' placeholder='Mensaje' name='contenido' onChange={handleChange} />
           <button type='submit'>Enviar</button>

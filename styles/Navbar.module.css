@@ -13,6 +13,7 @@
   background-color: #263238;
   border: 0;
   color: #EF5350;
+  display: none;
   font-size: 2.5em;
   outline: none;
 }
@@ -22,22 +23,60 @@
 }
 
 .container {
-  background-color: #263238DD;
-  border: 1px solid #EF5350;
+  align-items: center;
   border-radius: 5px;
   display: flex;
-  flex-direction: column;
-  right: 8%;
+  justify-content: center;
   padding: 10px;
-  position: absolute;
-  text-align: right;
-  top: 80px;
-  visibility: hidden;
+  visibility: visible;
 }
 
 .container a {
   color: #EF5350;
   font-size: 1.1em;
-  margin-bottom: 10px;
+  margin-left: 20px;
+  text-align: center;
   text-decoration: none;
+}
+
+@media screen and (max-width: 800px) {
+  .navbar {
+    align-items: center;
+    background-color: #263238;
+    display: flex;
+    justify-content: space-between;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+  }
+
+  .navbar button {
+    background-color: #263238;
+    border: 0;
+    color: #EF5350;
+    display: unset;
+    font-size: 2.5em;
+    outline: none;
+  }
+
+  .container {
+    background-color: #263238DD;
+    border: 1px solid #EF5350;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    right: 8%;
+    padding: 10px;
+    position: absolute;
+    text-align: right;
+    top: 80px;
+    visibility: hidden;
+  }
+
+  .container a {
+    color: #EF5350;
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    text-decoration: none;
+  }
 }
