@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import { FaFacebookF, FaInstagram, FaTwitter, FaYoutube } from 'react-icons/fa'
+import { FaFacebookF, FaYoutube } from 'react-icons/fa'
 
 import style from '../styles/Footer.module.css'
 
@@ -24,8 +24,8 @@ export default function Footer () {
           <Link href='https://www.youtube.com/channel/UCBzqQ14u7dC38d77GsAwtGA/featured' passHref>
             <a><FaYoutube /></a>
           </Link>
-          <a href='/'><FaTwitter /></a>
-          <a href='/'><FaInstagram /></a>
+          {/* <a href='/'><FaTwitter /></a>
+          <a href='/'><FaInstagram /></a> */}
         </div>
       </div>
       <hr />
