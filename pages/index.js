@@ -1,10 +1,10 @@
 /* eslint-disable no-undef */
 import Head from 'next/head'
-import Animation from '../components/Animation'
-import Contact from '../components/Contact'
-import ServiceCard from '../components/ServiceCard'
-import home from '../public/haitek-animation.json'
-import style from '../styles/Home.module.css'
+// import Animation from '../components/Animation'
+// import Contact from '../components/Contact'
+// import ServiceCard from '../components/ServiceCard'
+// import home from '../public/haitek-animation.json'
+// import style from '../styles/Home.module.css'
 
 export default function Home ({ Descripcion, servicios }) {
   return (
@@ -18,7 +18,9 @@ export default function Home ({ Descripcion, servicios }) {
         <title>Home | Haitek</title>
         <link rel='icon' href='/favicon.ico' />
       </Head>
-      <main className={style.main}>
+      <h1 style={{ textAlign: 'center' }}>Haitek</h1>
+      <h1 style={{ textAlign: 'center' }}>Proximamente...</h1>
+      {/* <main className={style.main}>
         <div>
           <h1>Haitek</h1>
           <span>Tu problema es nuestro problema</span>
@@ -46,7 +48,7 @@ export default function Home ({ Descripcion, servicios }) {
       </section>
       <section>
         <Contact />
-      </section>
+      </section> */}
     </>
   )
 }
