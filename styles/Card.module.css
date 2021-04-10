@@ -13,14 +13,12 @@
 }
 
 .card div img {
-    border-top-right-radius: 9px;
-    border-top-left-radius: 9px;
     height: 100%;
     width: 100%;
 }
 
 .text {
-    padding: 10px;
+    padding: 5px 10px;
 }
 
 @media screen and (max-width: 600px) {
