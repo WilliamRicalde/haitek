@@ -24,7 +24,7 @@ export default function Home ({ Descripcion, servicios }) {
           <span>Tu problema es nuestro problema</span>
         </div>
         <div>
-          <Animation lotti={home} height={500} width={500} />
+          <Animation lotti={home} />
         </div>
       </main>
       <section className={style.about} id='quienes-somos'>
