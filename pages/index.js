@@ -8,7 +8,7 @@ import style from '../styles/Home.module.css'
 
 export default function Home ({ Descripcion, servicios }) {
   return (
-    <>
+    <div className={style.container}>
       <Head>
         <meta charSet='UTF-8' />
         <meta httpEquiv='X-UA-Compatible' content='IE=edge' />
@@ -47,7 +47,7 @@ export default function Home ({ Descripcion, servicios }) {
       <section>
         <Contact />
       </section>
-    </>
+    </div>
   )
 }
 

@@ -1,3 +1,8 @@
+.container {
+  width: 100vw;
+  overflow: hidden;
+}
+
 .main {
   align-items: center;
   display: flex;
@@ -61,7 +66,6 @@
     flex-direction: column;
     justify-content: center;
     padding-top: 40px;
-    width: 121%;
   }
 
   .main div {
@@ -72,7 +76,6 @@
   .about {
     font-size: 1.5em;
     margin: auto;
-    width: 121%;
   }
 
   .about article {
@@ -84,7 +87,6 @@
 
   .about article div {
     margin: auto;
-    width: 100%;
   }
 
   .about article img {
@@ -99,7 +101,6 @@
 
   .services {
     margin: auto;
-    width: 121%;
   }
 
   .services h1 {
